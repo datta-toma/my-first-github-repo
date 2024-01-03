@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    }
+body{
+     background-color: azure;
+        }
+        header{
+                font-size: 30px;
+                background-color: rgb(3, 3, 63);
+                width: auto;
+                height: 100px;
+                background-size: cover;
+                color: white;
+                font-style: italic;
+                text-align: center;
+                border-radius: 10px;
+                margin: 20px ; 
+                margin-left: 30%;
+            margin-right: 30%;
+                }
+        .blog {
+            background-color: rgb(20, 20, 20);
+            border: 10px solid rgb(143, 3, 111);
+            border-radius: 10px;
+           margin: 10px;
+            text-align: justify;
+            padding: 30px;
+            width: auto; 
+            box-shadow: 10px 10px 10px  rgb(122, 122, 235);
+            position: relative;
+            margin-left: 30%;
+            margin-right: 30%;
+            }
+       .text{
+        color: rgb(227, 237, 240);
+       }
+       #page{
+            margin-left: 10px 50px 100px;
+            /* width: 600px; */
+       }
+       #form{
+        background-color:rgb(164, 159, 159);
+        border: 10px solid rgb(143, 3, 111);
+        box-shadow: 10px 10px 10px  rgb(162, 162, 192);
+        text-align: center;
+        width: 300px;
+        border-radius: 10px;
+        margin: 20px ; 
+        margin-left: 30%;
+        margin-right: 30%;
+       }
+       .pass{
+        width: 100%;
+       }
+       
+    
