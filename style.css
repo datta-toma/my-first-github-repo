@@ -1,56 +1,81 @@
 *{
-    margin: 0;
-    }
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
-     background-color: azure;
-        }
-        header{
-                font-size: 30px;
-                background-color: rgb(3, 3, 63);
-                width: auto;
-                height: 100px;
-                background-size: cover;
-                color: white;
-                font-style: italic;
-                text-align: center;
-                border-radius: 10px;
-                margin: 20px ; 
-                margin-left: 30%;
-            margin-right: 30%;
-                }
-        .blog {
-            background-color: rgb(20, 20, 20);
-            border: 10px solid rgb(143, 3, 111);
-            border-radius: 10px;
-           margin: 10px;
-            text-align: justify;
-            padding: 30px;
-            width: auto; 
-            box-shadow: 10px 10px 10px  rgb(122, 122, 235);
-            position: relative;
-            margin-left: 30%;
-            margin-right: 30%;
-            }
-       .text{
-        color: rgb(227, 237, 240);
-       }
-       #page{
-            margin-left: 10px 50px 100px;
-            /* width: 600px; */
-       }
-       #form{
-        background-color:rgb(164, 159, 159);
-        border: 10px solid rgb(143, 3, 111);
-        box-shadow: 10px 10px 10px  rgb(162, 162, 192);
-        text-align: center;
-        width: 300px;
-        border-radius: 10px;
-        margin: 20px ; 
-        margin-left: 30%;
-        margin-right: 30%;
-       }
-       .pass{
-        width: 100%;
-       }
-       
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-image: url('/images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 450px;
+    padding-bottom: 400px;
+}
+.text{
+    text-align: right;
+    color:whitesmoke;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 300px;
     
+} 
+.banner-description{
+    text-align: right;
+    color:whitesmoke;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-right: 300px;
+    
+}
+button{
+    border-radius: 5px;
+    background: whitesmoke;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color:blue;
+    padding: 15px 35px;
+    float: right;
+    margin-right: 400px;
+    margin-top:40px;
+}   
+
+#fix{
+    display: flex;
+    gap: 100px;
+    padding: 150px 150px;
+}
+#tip{
+    padding: 150px 150px;
+}
+.pic{
+   height: 20px;
+   margin-left: 20px;
+}
+.head{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+    padding-right: 200px;
+}
+.pre{
+    font-size: 24px;
+    padding-top: 20px;
+}
+ ul{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.fa-solid{
+    color: green;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.section-title{
+    font-size: 40px;
+    color: black;
+}
