@@ -75,7 +75,7 @@ header{
     padding-right: 10px;
     font-size: 20px;
 }
-.section-title{
+.title{
     font-size: 40px;
     color: black;
     text-align: center;
@@ -111,3 +111,44 @@ header{
     margin-right: 400px;
     margin-top:20px;
 }
+.footer-column{
+    background-color: black;
+    display: flex;
+    gap: 200px;
+}
+.fut{
+    padding: 200px 200px;
+    
+}
+
+.section-title{
+    font-size: 50px;
+    color: whitesmoke;
+    padding-right: 10px;
+}
+.section-description{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.ads{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+.social-links a{
+    margin-right:25px ;
+}
+.social-links{
+    padding-top: 40px;
+}
+.cont{
+    border-radius: 5px;
+    background: whitesmoke;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-right: 400px;
+    margin-top:20px;
+}
+
